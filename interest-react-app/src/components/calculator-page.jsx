@@ -1,25 +1,24 @@
 import React from 'react';
 
 function PageView () {
- 
-    
+
 return (
-    <form>
-        <input name="principal" type="text" className="input"/>
-        principal
+    <div>
+        <label className="label">Principal:</label>
+        <input id="principal" type="text" className="textFields"/>
 
-        <input name="interest rate" type="text"className="input"/>
-        interest rate
+        <label>Interest Rate:</label>
+        <input name="interest-rate" type="text" className="textFields"/>
 
-        <input name="frequency" type="text"className="input"/>
-        frequency
+        <label>Frequency:</label>
+        <input name="frequency" type="text" className="textFields"/>
 
-        <input name="number of years" type="text"className="input"/>
-        number of years
+        <label>Number of Years:</label>
+        <input name="number-of-years" type="text" className="textFields"/>
 
-        <input name="monethly contribution" type="text"className="input"/>
-        monthly contribution
-    </form>
-)
+        <label>Monthly Contribution:</label>
+        <input name="monthly-contribution" type="text" className="textFields"/>
+    </div>
+        );
 }
 export default PageView;

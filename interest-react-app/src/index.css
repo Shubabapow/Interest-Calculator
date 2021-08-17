@@ -12,9 +12,12 @@ code {
     monospace;
 }
 
-input[type="text"] {
-  width: 10%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
+
+.textFields {
+  position:relative;
+  top:0;left:0;right:0;bottom:0;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content:center
 }
