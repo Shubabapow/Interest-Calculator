@@ -25,6 +25,18 @@ code {
   align-items: center;
   justify-content: center;
 }
+
+.button {
+  position: relative;
+  top: 38px;
+  left: 64px;
+  right: 0;
+  bottom: 0;
+  background: grey;
+  display: flex;
+  align-items: center;
+}
+
 .labels {
   position: relative;
   top: 32px;
@@ -34,6 +46,16 @@ code {
   width: auto;
   font-weight: bold;
   background: white;
+  display: flex;
+  align-items: center;
+}
+
+.submitButton {
+  position: relative;
+  top: 40px;
+  font-weight: bold;
+  background: white;
+  width: auto;
   display: flex;
   align-items: center;
 }
@@ -50,6 +72,7 @@ code {
   display: flex;
   align-items: center;
 }
+
 .navBarText {
   position: relative;
   top: 0;
@@ -62,6 +85,7 @@ code {
   display: flex;
   align-items: center;
 }
+
 .navBarButton {
   display: inline-block;
   border-radius: 4px;
@@ -77,6 +101,7 @@ code {
   cursor: pointer;
   margin: 15px;
 }
+
 .footer {
   position: absolute;
   left: 0;

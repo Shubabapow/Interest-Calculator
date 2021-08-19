@@ -6,11 +6,9 @@ import Footer from './components/footer';
 function App() {
   return (
     <div>
-      <main>
       <NavBar/>
       <PageView/>
       <Footer/>
-      </main>
     </div>
   );
 }
